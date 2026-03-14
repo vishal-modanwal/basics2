@@ -10,6 +10,9 @@ export class NewComponent implements OnInit {
 
   showMsg(){
     this.msg = "Welcome To Angular Training"
+    setTimeout(()=>{
+      this.msg="";
+    } , 10000)
   }
 
   constructor() { }
