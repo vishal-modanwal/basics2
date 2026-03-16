@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StyleComponent implements OnInit {
 isActive= false;
- 
+bg=true;
+changeBg() {
+  this.bg = !this.bg;
+}
   constructor() { }
 
   ngOnInit(): void {

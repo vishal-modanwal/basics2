@@ -3,5 +3,11 @@
 </p> -->
 
 <p [ngClass]="isActive ? 'active' : 'inactive'">hello</p>
+<br><hr>
 
-<p [ngStyle]="{'background-color' : 'blue' }">hello style</p>
+<h1>ngstyle</h1>
+<p [ngStyle]="bg ? {'background-color': 'red'} : {'background-color': 'green'}">
+  hello style
+</p>
+
+<button (click)="changeBg()">change-bg</button>

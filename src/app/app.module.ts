@@ -8,6 +8,9 @@ import { IfelseComponent } from './ifelse/ifelse.component';
 import { NgforComponent } from './ngfor/ngfor.component';
 import { NgmodelComponent } from './ngmodel/ngmodel.component';
 import { StyleComponent } from './style/style.component';
+import { PipesComponent } from './pipes/pipes.component';
+import { FormsComponent } from './forms/forms.component';
+import { UpperFisrtLetterPipe } from './pipe/upper-fisrt-letter.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { StyleComponent } from './style/style.component';
     IfelseComponent,
     NgforComponent,
     NgmodelComponent,
-    StyleComponent
+    StyleComponent,
+    PipesComponent,
+    FormsComponent,
+    UpperFisrtLetterPipe
   ],
   imports: [
     BrowserModule,
